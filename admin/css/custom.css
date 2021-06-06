@@ -1,0 +1,57 @@
+/* .btn {
+    margin-right: 5px;
+} */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    border: 0;
+    outline: none;
+    object-fit:cover;
+}
+ 
+.success-modal {
+    border-bottom: 0px;
+}
+.success-modal img{
+	width:76px;
+	height:auto;
+	margin:0 auto;
+	display:block;
+	margin-bottom:25px;
+}
+
+.btn-sm {
+    font-size: 12px;
+}
+
+#image_preview{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#image_preview img{
+width: 200px !important;
+height: 200px !important;
+padding: 5px;
+object-fit: cover;
+}
